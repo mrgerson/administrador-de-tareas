@@ -1,0 +1,51 @@
+.card {
+    height: 100%; /* Asegura que todas las tarjetas tengan el mismo alto */
+    display: flex;
+    flex-direction: column; /* Alinea el contenido en columna */
+    justify-content: space-between; /* Asegura que los botones queden al final */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn-container {
+    display: flex; /* Usa flexbox para alinear los botones */
+    justify-content: space-between; /* Espacio igual entre los botones */
+}
+.btn-container button {
+    margin-right: 5px; /* Espacio entre los botones */
+}
+.btn-container button:last-child {
+    margin-right: 0; /* Quitar margen derecho al último botón */
+}
+
+.btn-container .btn {
+    flex: 1; /* Hacer que los botones ocupen el mismo ancho */
+    margin-top: 10px;
+}
+
+/* Asegura que todas las tarjetas tengan una altura mínima consistente */
+.col-md-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    height: 100%;
+}
+
+.sidebar {
+    background-color: #f8f9fa;
+    padding: 15px; 
+}
+
+.sidebar .nav-link {
+    color: #333; 
+}
+
+.sidebar .nav-link:hover {
+    background-color: #e9ecef;
+}
