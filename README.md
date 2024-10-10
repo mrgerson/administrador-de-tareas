@@ -18,14 +18,20 @@ Sigue estos pasos para clonar e instalar el proyecto en tu computadora local:
    ```bash
    git clone <URL_DEL_REPOSITORIO>
 
-2.Copia el proyecto a tu servidor web
-Coloca la carpeta del proyecto en el directorio de tu servidor web. Por ejemplo, si usas XAMPP, colócala en C:\xampp\htdocs\task_manager.
+
+2. **Copia el proyecto a tu servidor web:**
+
+   ```bash
+   Coloca la carpeta del proyecto en el directorio de tu servidor web. Por ejemplo, si usas XAMPP, colócala en C:\xampp\htdocs\task_manager.
+
 
 3.Crea la base de datos:
-Accede a tu cliente de MySQL (como phpMyAdmin) y ejecuta el siguiente comando para crear la base de datos:
-CREATE DATABASE task_manager;
+    ```bash
+    Accede a tu cliente de MySQL (como phpMyAdmin) y ejecuta el siguiente comando para crear la base de datos:
+    CREATE DATABASE task_manager;
 
 4. Importa el esquema de la base de datos:
+ ```bash
 -- Crear la tabla de usuarios (users)
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
